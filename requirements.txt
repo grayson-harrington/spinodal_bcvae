@@ -1,0 +1,13 @@
+numpy==2.2.6
+torch==2.11.0
+scikit-learn==1.7.2
+h5py==3.16.0
+optuna==4.8.0
+matplotlib==3.10.9
+corner==2.2.3
+hyppo==0.5.2
+scipy==1.15.3
+PyYAML==6.0.3
+tqdm==4.67.3
+pandas==2.3.3
+seaborn==0.13.2
