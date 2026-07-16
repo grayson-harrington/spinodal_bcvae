@@ -13,6 +13,8 @@ those scores conditioned on the 18 physical simulation parameters, enabling
 conditional generation, reconstruction, and latent-space analysis of
 microstructural statistics.
 
+TODO: finsih the TODOs
+
 ## Install
 
 ```bash
@@ -24,7 +26,8 @@ validated on 3.10).
 
 ## Data & model download
 
-The processed dataset and trained artifacts are hosted on Zenodo (DOI: **TBD**).
+The processed dataset and trained artifacts are hosted on Zenodo:
+[10.5281/zenodo.21386491](https://doi.org/10.5281/zenodo.21386491).
 Download the artifact and place its contents into the `data/` directory
 (gitignored) so the layout is:
 
