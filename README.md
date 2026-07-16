@@ -13,8 +13,6 @@ those scores conditioned on the 18 physical simulation parameters, enabling
 conditional generation, reconstruction, and latent-space analysis of
 microstructural statistics.
 
-TODO: finsih the TODOs
-
 ## Install
 
 ```bash
