@@ -27,7 +27,7 @@ validated on 3.10).
 ## Data & model download
 
 The processed dataset and trained artifacts are hosted on Zenodo:
-[10.5281/zenodo.21386491](https://doi.org/10.5281/zenodo.21386491).
+[10.5281/zenodo.21386490](https://doi.org/10.5281/zenodo.21386490).
 Download the artifact and place its contents into the `data/` directory
 (gitignored) so the layout is:
 
