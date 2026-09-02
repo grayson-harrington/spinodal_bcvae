@@ -326,7 +326,6 @@ print(f"Figure saved to {figure_path}")
 # generated samples.
 
 import corner
-import matplotlib.image as mpimg
 import matplotlib.lines as mlines
 
 N_CORNER = 1000
@@ -433,15 +432,5 @@ for model_name, gen_scores_c in [
     corner_paths.append(out)
     print(f"Saved -> {out}")
 
-# --------------------------------- combined corner comparison figure --------
-
-fig, axes = plt.subplots(1, len(corner_paths), figsize=(6 * len(corner_paths), 6))
-for ax, path in zip(np.atleast_1d(axes), corner_paths):
-    ax.imshow(mpimg.imread(path))
-    ax.set_axis_off()
-plt.tight_layout()
-
-combined_path = os.path.join(OUTPUT_DIR, "figure_corner_comparison.png")
-fig.savefig(combined_path, dpi=200, bbox_inches="tight")
-plt.close(fig)
-print(f"Combined corner comparison saved to {combined_path}")
+# The three corner PNGs above are Appendix B Figs. B.2 (beta-cVAE), B.3 (cINN),
+# and B.4 (Gaussian baseline).
