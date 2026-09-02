@@ -1,5 +1,6 @@
 numpy==2.2.6
 torch==2.11.0
+FrEIA==0.2
 scikit-learn==1.7.2
 h5py==3.16.0
 optuna==4.8.0
