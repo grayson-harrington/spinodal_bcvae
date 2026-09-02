@@ -69,6 +69,14 @@ Optional / reproduce-from-scratch (not required for the main pipeline):
 - `scripts/04_epistemic_ensemble.py` — retrains the 11-model seeded ensemble
   and runs the epistemic-vs-aleatoric uncertainty analysis (Fig. 11). The
   ensemble checkpoints are not shipped; this script regenerates them from seeds.
+- `scripts/05_scaling_study.py` — data-scaling comparison of the beta-cVAE
+  against a size-matched conditional normalizing flow (cINN) and an i.i.d.
+  Gaussian baseline, sliced-Wasserstein distance vs. training-set size
+  (manuscript Appendix B).
+- `scripts/06_pc_count_study.py` — pure-PCA two-point-statistics reconstruction
+  error vs. the number of retained principal components (1..500), with the
+  per-component explained-variance ratio (manuscript Appendix C). Uses the
+  fitted `data/pca_segmented.pkl` directly; no refit or model training.
 
 Output figures are written to `figures_out/` (gitignored).
 
